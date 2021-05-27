@@ -1,0 +1,16 @@
+*{
+    margin: auto;
+    padding: 20px;
+}
+
+img{
+
+    width: 150px;
+    height: 150px;
+    display: inline-block;
+}
+
+body{
+
+    background-color: black;
+}
