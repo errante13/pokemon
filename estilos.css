@@ -1,6 +1,7 @@
 *{
     margin: auto;
     padding: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 img{
@@ -11,6 +12,43 @@ img{
 }
 
 body{
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(0, 0, 0);
+}
 
-    background-color: black;
+.pokemon {
+    display: inline-block;
+    width: 60%;
+    vertical-align: top;
+    
+}
+
+.informacion{
+    display: inline-block;
+    position: fixed;
+    padding: 20px;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    background-color: cadetblue;
+    border-radius: 5px;
+}
+
+.informacion h1,h2,h4{
+
+    color: white;
+    margin: 0px;
+    padding: 5px 10px;
+
+}
+.informacion ul {
+    text-decoration: none;
+}
+
+.informacion li{
+    color: white;
+    margin: 1px;
+    padding: 1px;
+    list-style: none;
 }
